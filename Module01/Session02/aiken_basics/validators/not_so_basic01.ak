@@ -28,7 +28,7 @@ fn precision_multiplier(precision: Int) -> Int {
     }
 }
 
-// FP presentatino must be done off-chain
+// FP presentation must be done off-chain
 test fixed_point_example_test() {
     let fp = fixed_point_division(100, 2000, 6)
     let Pair(n,d) = fp

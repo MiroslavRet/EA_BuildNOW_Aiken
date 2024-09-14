@@ -3,7 +3,7 @@
     // "build": {
     //  "dockerfile": "Dockerfile"
     // },
-    "image": "nanuijaz/cardano-node-preview:9.1.1",
+    "image": "nanuijaz/cardano-node-preview:9.1.1-aiken-1.1.1",
     //"dockerComposeFile": "docker-compose.yml",
     //"service": "ppp",
     "workspaceFolder": "/home/ubuntu",
@@ -15,9 +15,7 @@
       "vscode": {
         // Add the IDs of extensions you want installed when the container is created.
         "extensions": [
-                "tx-pipe/aiken"
-          //    "haskell.haskell",
-        //  "vigoo.stylish-haskell"
+            "txpipe.aiken"
         ],
         "settings": {
           //"haskell.formattingProvider": "stylish-haskell"
